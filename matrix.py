@@ -20,5 +20,6 @@ for i in range(len(m1)):
     for j in range(len(m1[0])):
         print(j) 
         m3[i][j] = m1[i][j] + m2[i][j]
+print(f'{m3}')
 for r in m3: 
     print(r)
